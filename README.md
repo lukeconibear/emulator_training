@@ -1,6 +1,6 @@
 # Emulation of air quality in China
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lukeconibear/emulator_training/blob/main/docs/emulator_training.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lukeconibear/emulator_training/blob/main/emulator_training.ipynb)
 
 ## COP-AQ: Winter training School  
 
@@ -16,4 +16,4 @@ Provide training in the methods of statistical emulation for air quality researc
 
 ### Background reading
 - [Interactive plot](https://bag.leeds.ac.uk/projects/air-quality-in-asia/emulating-air-quality-in-china/)  
-- [Background reading](https://www.lukeconibear.com/emulator.html)  
+- [Blog](https://www.lukeconibear.com/emulator.html)  
