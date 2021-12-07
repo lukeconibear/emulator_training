@@ -9,9 +9,8 @@ from bokeh.models import (ColumnDataSource, CustomJS, LinearColorMapper,
                           Slider, TextInput, NumeralTickFormatter)
 from bokeh.plotting import figure
 from bokeh.themes import Theme
-from bokeh.io import show, output_notebook, reset_output
+from bokeh.io import show, output_notebook
 from bokeh.palettes import YlOrRd9
-
 
 # --- data ---
 source_dfs_exposure = joblib.load('source_dfs_exposure_adjusted_scaled_float16_pm25only.joblib.compressed')
@@ -115,7 +114,7 @@ def create_interactive_plot(source, output, outcome):
     return plot
 
 
-def build_visualisation():
+def build_visualisation_grid():
     source_exposure_PM2_5_DRY = sources['PM2_5_DRY_exposure_mean']
     source_mort_PM2_5_DRY = sources['PM2_5_DRY_mort_mean']
 
@@ -195,5 +194,5 @@ def build_visualisation():
          [plot_exposure_PM2_5_DRY, plot_mort_PM2_5_DRY]],
         plot_width=400, plot_height=300)
     
-    return show(grid)
+    return grid
 
