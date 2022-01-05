@@ -1,6 +1,8 @@
 # Emulation of air quality in China
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lukeconibear/emulator_training/blob/main/emulator_training.ipynb)
+[Slides](https://github.com/lukeconibear/emulator_training/blob/main/AGU2021_Luke-Conibear_Presentation.pdf)
+
+Training = [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lukeconibear/emulator_training/blob/main/emulator_training.ipynb)
 
 ## COP-AQ: Winter training School  
 
